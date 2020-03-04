@@ -20,21 +20,22 @@
         <h1 id="demo" class="display-4">My Name is ???</h1>
         <hr class="my-4">
         <p>Click the button below to find out what my name is!</p>
-        <button type="button" onclick="loadDoc()" class="btn btn-outline-primary btn-lg">Reveal Name</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="revealName()">Reveal Name</button>
       </div>
     </div>
 
     <!-- Optional JavaScript -->
     <script>
-      function loadDoc(){
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if(this.readyState==4 && this.status==200){
-            document.getElementById("demo").innerHTML = this.responseText;
+      function revealName(){
+        var mRequest = new XMLHttpRequest();
+
+        mRequest.onreadystatechange = function() {
+          if(mRequest.readyState == 4 && mRequest.status == 200){
+            document.getElementId("name").innerHTML = this.responseText;
           }
         }
-        xhttp.open("GET", "file.txt", true);
-        xhttp.send();
+        mRequest.open("GET", "file.txt", true);
+        mrequest.send();
       }
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
