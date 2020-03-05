@@ -31,10 +31,15 @@
 
         mRequest.onreadystatechange = function() {
           if(mRequest.readyState == 4 && mRequest.status == 200){
-            document.getElementId("name").innerHTML = this.responseText;
+            var nameObj = this.responseText;
+            console.log(nameObj);
+            nameObj = JSON.parse(nameObj);
+            console.log(nameObj.lastName);
+            document.getElementId("name").innerHTML = nameObj.firstName + " " + nameObj.lastName;
+            document.getElementId("info").innerHTML = "I am" + nameObj.age + " and I am a " + nameObj.role;
           }
         }
-        mRequest.open("GET", "file.txt", true);
+        mRequest.open("GET", "name.json", true);
         mrequest.send();
       }
     </script>
