@@ -1,0 +1,54 @@
+{
+
+"books":
+  [
+    {
+    "title":"IT",
+    "author":"Stephen King",
+    "coverImage":"img/it-cover.jpg",
+    "summary":"Jack Torrance's new job at the Overlook Hotel is the perfect chance for a fresh start.
+    As the off-season caretaker at the atmospheric old hotel, he'll have plenty of time to spend reconnecting with his family and working on his writing.
+    But as the harsh winter weather sets in, the idyllic location feels ever more remote...and more sinister.
+    And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.",
+    "reviews":
+      [
+      {"firstReview":"IT will overwhelm you.. Characters so real you feel you are reading about yourself..
+        scenes to be read in a well-lit room only. -Los Angeles Times"},
+      {"secondReview":"Scary!...Serves up horrors at a brisk, unflagging pace. -The New York Times"},
+      {"thirdReview":"This chilling novel will haunt you, and
+        make your heart race with fear. -Nashville Banner"}
+    ]
+  },
+    {
+    "title":"Misery",
+    "author":"Stephen King",
+    "coverImage":"img/misery-cover.jpg",
+    "summary":"Paul Sheldon. He's a bestselling novelist who has finally met his biggest fan. Her name is
+    Annie Wilkes and she is more than a rabid reader - she is Paul's nurse, tending his shattered body
+    after an automobile accident. But she is also his captor, keeping him prisoner in her isolated house.",
+    "reviews":
+      [
+      {"firstReview":"King at his best..A winner! - The New York Times"},
+      {"secondReview":"Unadulteratedly terrifying... Frigtening. -Publishers Weekly"},
+      {"thirdReview":"Classic King.. Full of twists and turns and mounting suspense. - The Boston Globe"}
+    ]
+  },
+  {
+    "title":"The Stand",
+    "author":"Stephen King",
+    "coverImage":"img/stand-cover.jpg",
+    "summary":"This is the way the world ends: with a nanosecond of computer error in a Defense Department laboratory and a
+    million casual contacts that form the links in a chain letter of death. And here is the bleak new world of the day after:
+    a world stripped of its institutions and emptied of 99 percent of its people.
+    A world in which a handful of panicky survivors choose sides--- or are chosen.",
+    "reviews":
+      [
+      {"firstReview":"A Master Storyteller - Los Angeles Times"},
+      {"secondReview":"The Stand has everything. Adventure. Roman. Prophecy. Allegory. Satire.
+        Fantasy. Realism. Apocalypse. Great! - The New York Times Book Review"},
+      {"thirdReview":"As Brilliant a dark dream as has ever been dreamed in this century. - Palm Beach Post"}
+      ]
+    }
+
+  ]
+}
