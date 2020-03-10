@@ -3,7 +3,7 @@ function loadBooks(){
   xhttp.onreadystatechange = function(){
     if(this.readyState == 4 && this.status == 200){
       var book = this.responseText;
-      var booksObj = JSON.parse(books);
+      var booksObj = JSON.parse(book);
       for (x = 0; x < booksObj.books.length; x++)
       {
         showBooks(booksObj, x);
