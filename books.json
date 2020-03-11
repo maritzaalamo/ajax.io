@@ -3,10 +3,10 @@
 "books":
   [
     {
-    "title":"IT",
-    "author":"Stephen King",
-    "coverImage":"img/it-cover.jpg",
-    "summary":"Jack Torrance's new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he'll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote...and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.",
+    "title":"The Hunger Games",
+    "author":"Suzanne Collins",
+    "coverImage":"img/hunger.jpg",
+    "summary":"The story is centered on a 16-year-old girl, Katniss Everdeen and her struggle for survival in dystopia. Each year, as a punishment for the failed rebellion by District 13, the 12 Panem Districts are forced to pay tribute to the ruthless Capitol regime. The story begins on the day of reaping at District 12.",
     "reviews":
       [
       {"firstReview":"IT will overwhelm you.. Characters so real you feel you are reading about yourself.. scenes to be read in a well-lit room only. -Los Angeles Times"},
@@ -15,10 +15,10 @@
     ]
   },
     {
-    "title":"Misery",
-    "author":"Stephen King",
-    "coverImage":"img/misery-cover.jpg",
-    "summary":"Paul Sheldon. He's a bestselling novelist who has finally met his biggest fan. Her name is Annie Wilkes and she is more than a rabid reader - she is Paul's nurse, tending his shattered body after an automobile accident. But she is also his captor, keeping him prisoner in her isolated house.",
+    "title":"Catching Fire",
+    "author":"Suzanne Collins ",
+    "coverImage":"img/catching.jpg",
+    "summary":"It has been six months since Katniss Everdeen and Peeta Mellark won the Seventy-fourth Hunger Games, an annual event in which each district in Panem sends one female and one male tribute to fight to the death in a televised competition for food and money.",
     "reviews":
       [
       {"firstReview":"King at his best..A winner! - The New York Times"},
@@ -27,10 +27,10 @@
     ]
   },
   {
-    "title":"The Stand",
-    "author":"Stephen King",
-    "coverImage":"img/stand-cover.jpgs",
-    "summary":"This is the way the world ends: with a nanosecond of computer error in a Defense Department laboratory and a million casual contacts that form the links in a chain letter of death. And here is the bleak new world of the day after: a world stripped of its institutions and emptied of -- percent of its people. A world in which a handful of panicky survivors choose sides--- or are chosen.",
+    "title":"Mocking Jay",
+    "author":"Suzanne Collins",
+    "coverImage":"img/mocking.jpgs",
+    "summary":"This young adult novel follows protagonist Katniss Everdeen as she fights in a futuristic rebellion against a sadistic dictatorship run by President Snow. Mockingjay largely explores the psychological and emotional costs of war. Panem is a dictatorship that maintained its power after a failed rebellion.",
     "reviews":
       [
       {"firstReview":"A Master Storyteller - Los Angeles Times"},
