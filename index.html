@@ -122,6 +122,11 @@
         window.onload = function() {
         loadBooks();
         };
+        $(document).ready(function(e) {
+        $.getJSON( "books.json" , function( result ){
+        alert(result.start.count);
+   });
+});
     </script>
   </body>
 </html>
